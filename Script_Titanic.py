@@ -43,4 +43,5 @@ titanic_test.loc[titanic_test["Embarked"] == "Q","Embarked"] = 2
 
 ## Fare
 print(titanic_train["Fare"].describe()) # no missing values
+ # master
  
