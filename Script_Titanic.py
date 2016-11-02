@@ -62,3 +62,4 @@ titanic_df['Fare'].plot(kind='hist', figsize=(15,3),bins=100, xlim=(0,50))
 
 avgerage_fare.index.names = std_fare.index.names = ["Survived"]
 avgerage_fare.plot(yerr=std_fare,kind='bar',legend=False)
+#modif on github
